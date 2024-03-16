@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #243a40;
+    color: white;
+    font-family: Arial;
+    padding-top: 50px;
+}
+#getInfoBigBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#resultBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#resultOne p, #resultTwo p, #resThreeTitle{
+    font-size: 25px;
+    margin: 5px;
+    text-align: center;
+}
+#resultOne, #resultTwo, #resultThree{
+    background-color: #00000060;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#resultThree{
+    padding-top: 20px;
+}
+#winter, #spring, #summer, #autumn, #resWeek, #resDay, #resHour, #resMinute, #resSecond, #andResYear, #andResMonth, #andResMonthDay, #andResHour, #andResMinute, #andResSecond{
+    background-color: #00000060;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+#resultThree{
+    position: relative;
+}
+
+#getInfoBox select{
+    border: none;
+    font-size: 25px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    outline: none;
+    margin: 2px 5px;
+    cursor: pointer;
+}
+#resultBtn{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2px 5px;
+    background-color: #41ff00;
+    cursor: pointer;
+    border: none;
+}
+
+#nameOfUser{
+    border: none;
+    outline: none;
+    padding: 5px 5px 5px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#fullp{
+    position: absolute;
+    font-size: 13px;
+    right: 5px;
+    top: 5px;
+    padding: 0;
+    margin: 0;
+    color: #ffbf53;
+}
